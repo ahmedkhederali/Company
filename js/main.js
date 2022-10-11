@@ -23,7 +23,6 @@ $(document).ready(function(){
     const speed = 120;
     counters.forEach(counter => {
 	const updateCount = () => {
-        console.log("mostafa")
 		const target = +counter.getAttribute('data-target');
 		const count = +counter.innerText;
 		const inc = target / speed;
