@@ -24,6 +24,7 @@ $(document).ready(function(){
     counters.forEach(counter => {
 console.log("ahmed")
 	const updateCount = () => {
+        console.log("sasa")
 		const target = +counter.getAttribute('data-target');
 		const count = +counter.innerText;
 		const inc = target / speed;
