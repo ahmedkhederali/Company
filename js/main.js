@@ -21,6 +21,7 @@ $(document).ready(function(){
 
     const counters = document.querySelectorAll('.counter');
     const speed = 120;
+console.log("amr");
     counters.forEach(counter => {
 console.log("ahmed")
 	const updateCount = () => {
