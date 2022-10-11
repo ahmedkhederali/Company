@@ -471,10 +471,13 @@ body{
 .communicate h3{
     margin-top: 3rem;
     font-size: 3rem;
+    color: white;
 }
 
 .communicate p{
     font-size: 2rem;
+    color: white;
+
 }
 
 .testimonials {
