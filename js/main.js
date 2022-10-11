@@ -22,6 +22,7 @@ $(document).ready(function(){
     const counters = document.querySelectorAll('.counter');
     const speed = 120;
     counters.forEach(counter => {
+console.log("ahmed")
 	const updateCount = () => {
 		const target = +counter.getAttribute('data-target');
 		const count = +counter.innerText;
