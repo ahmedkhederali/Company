@@ -20,12 +20,12 @@ $(document).ready(function(){
     });
 
     const counters = document.querySelectorAll('.counter');
-    const speed = 120;
-console.log("amr");
+    const speed = 50;
+
     counters.forEach(counter => {
-console.log("ahmed")
+
 	const updateCount = () => {
-        console.log("sasa")
+
 		const target = +counter.getAttribute('data-target');
 		const count = +counter.innerText;
 		const inc = target / speed;
