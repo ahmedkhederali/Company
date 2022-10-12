@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
      $('.fa-bars').click(function(){
@@ -77,4 +78,13 @@ $('.accordion-header').click(function(){
     $(this).children('span').text('-');
 });
 
+document.getElementById('sendEmail').onsubmit = (e) => {
+    e.preventDefault()
+    console.log("sasa",e)
+
+
+}
+
+
 });
+
